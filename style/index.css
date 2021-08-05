@@ -1,1 +1,164 @@
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+*{
+    box-sizing: border-box; 
+    padding:0;
+    margin:0;
+    max-width:100%;
+}
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.6rem;
+    line-height:1.5;
+     background-color: #a3abb8;}
+/* overloard styles */
+h1{
+    font-size: 4rem;
+    font-family: 'Palette Mosaic';
+}
+section{
+    padding: 4% 0;
+}
 /* Add CSS styling here */
+/* navigation bar styling */
+nav{
+    
+    display: flex;
+    position: fixed;
+    flex-direction: column ;
+    width: 100%;
+    background-color: antiquewhite;
+}
+.links {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    font-size: 2rem;
+    align-items: center;
+    padding-left: 3%;
+    
+}
+a{
+    padding: 1% 2% 1% 2%;
+    width: 12%;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    border:2px solid grey;
+    border-radius: 5%;
+    text-decoration: none;
+}
+/* upper section styling */
+
+.top{
+    height:110vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20% 0;
+    
+    
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 50%;
+    text-align: left;
+    padding-right: 10%;
+    justify-content: center;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+h2{
+    margin-bottom:5% ;
+    font-size: 3rem;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+button{
+    width: 35%;
+    padding: 7;
+    margin-bottom: 5%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.bioPic{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    margin-right: 10%;
+}
+/* lower sytylings */
+.dog1, .dog2, .dog3, .dog4, .dog5, .dog6, .dog7, .dog8{
+    width: 23%;
+    padding: 3%;
+    
+}
+.pics{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+h4{
+    text-align: center;
+    font-family: 'Palette Mosaic';
+}
+/* footer styles */
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: antiquewhite;
+}
+.likeWhatYouSee{
+    width: 50%;
+    text-align: center;
+    margin: 10;
+    padding: 5% 0 5% 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h3{
+    font-size: 3rem;
+    margin-bottom: 5%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.footerButton{
+    font-size: 2rem;
+    padding-top: 2%;
+    padding-bottom: 2% ;
+}
